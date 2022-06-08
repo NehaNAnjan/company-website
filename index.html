@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Be Unique</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://kit.fontawesome.com/64dc174fa5.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <style>
+        /* My Custom CSS Styles */
+        .slider-images {
+            width: '100%';
+            height: 'auto';
+        }
+
+        .slider-carousel {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 600px;
+        }
+
+        .slider-carousel .carousel-item {
+            padding: 0rem !important;
+        }
+
+        .navbar-dark .navbar-brand,
+        .navbar-dark .navbar-nav .nav-link {
+            color: #37363E !important;
+        }
+
+        .features-heading {
+            text-align: center;
+            width: 100%;
+            margin-top: 3rem;
+            color: #37363E;
+        }
+
+        #testimonials {
+            padding-top: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="transparent-section" id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Be Unique</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cta">Download</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="background-div">
+            <div id="banner-slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide2.webp" alt="Los Angeles">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide3.webp" alt="Chicago">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide2.webp" alt="New York">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide3.webp" alt="Chicago">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+
+        </header>
+    </section>
+
+
+    <!-- Features -->
+    <section class="white-section" id="features">
+        <div class="row">
+            <h2 class="features-heading" data-aos="fade-left">Our Features</h2>
+        </div>
+        <div class="row">
+            <div class="feature-box col-lg-4" data-aos="fade-down">
+                <!-- <i class="fa fa-check-circle fa-2x" aria-hidden="true"> </i> -->
+                <!-- <i class="fa-solid fa-swatchbook fa-2x" aria-hidden="true"> </i> -->
+                <i class="fa fa-swatchbook fa-2x" aria-hidden="true"></i>
+                <h3 class="feature-title">Colour & Shape Analysis.</h3>
+                <p>You will learn how to select the right clothing cuts for your body shape and which colours are
+                    correct for
+                    your complexion using my colour analysis system..</p>
+            </div>
+            <div class="feature-box col-lg-4" data-aos="fade-down">
+                <!-- <i class="fas fa-bullseye fa-2x"></i> -->
+                <i class="fa fa-cart-shopping fa-2x"></i>
+                <h3 class="feature-title"> Personal Shopping</h3>
+                <p>We know exactly where to find the right items to meet your needs and make you look your best.</p>
+            </div>
+            <div class="feature-box col-lg-4" data-aos="fade-down">
+
+                <!-- <i class="fas fa-heart fa-2x"></i> -->
+                <i class="fa fa-shirt fa-2x"></i>
+                <h3 class="feature-title"> Wardrobe Edit.</h3>
+                <p>Your wardrobe will contain items that work for you and combine well into easy outfits..</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="colored-section" id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 class="testimonial-text">‘I have been so pleased with all my purchases! Team is so good at
+                        showing you why
+                        something suits you and giving you choices, making sure they fit your personality.</h2>
+                    <img class="testimonial-image" src="images/lady2-img.jpg" alt="lady2-profile">
+                    <em>Phoebe, New York</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">‘I have never had the confidence to really know what suits me so I was
+                        really
+                        excited to have someone who knew what to do! I now know very clearly the things that work for me
+                        so it has
+                        given me a toolkit and
+                        ultimately meant that I saved a lot of money and didn’t just get the things I already had.</h2>
+                    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+                    <em>Beverly, Illinois</em>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+    </section>
+
+
+    <!-- Press -->
+    <section class="colored-section" id="press">
+        <img class="press-logo" src="images/magazine-1.jpeg" alt="tc-logo" data-aos="fade-down">
+        <img class="press-logo" src="images/magazine-2.jpeg" alt="tnw-logo" data-aos="fade-up">
+        <img class="press-logo" src="images/magazine-3.png" alt="biz-insider-logo" data-aos="fade-down">
+        <img class="press-logo" src="images/magazine-4.png" alt="mashable-logo" data-aos="fade-up">
+    </section>
+
+
+    <!-- Pricing -->
+    <section id="pricing">
+        <h2 data-aos="fade-right">Customise Your Outfits In Real-Time</h2>
+        <p>From instant wardrobe updates to advice on how to put a look together, whatever your query, our team of
+            dedicated
+            fashion insiders are on hand.</p>
+
+        <div class="row" data-aos="fade-left">
+            <div class="col-lg-4 col-md-6 pricing-column">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>One week</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>£99</h2>
+                        <p>Subscriber Benefits</p>
+                        <p>Unlimited App Usage</p>
+                        <p>Complimentary E-book</p>
+                        <button type="button" class="btn btn-lg btn-outline-dark download-button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 pricing-column">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>6 months</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>£294</h2>
+                        <p>Get Exclusive Updates </p>
+                        <p>Brand discounts</p>
+                        <p>Subscriber Benefits</p>
+                        <button type="button" class="btn btn-dark btn-lg download-button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 pricing-column">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>12 months</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>£599</h2>
+                        <p>Priority Listing</p>
+                        <p>Subscriber Benefits</p>
+                        <p>Get Exclusive Updates</p>
+                        <p>Brand discounts</p>
+                        <button type="button" class="btn btn-dark btn-lg download-button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Call to Action -->
+    <section class="colored-section" id="cta">
+        <h3 class="action" data-aos="fade-left">Finding your style allows you to be seen in the way that you wish to be
+            perceived. <br> Being
+            well dressed is powerful.</h3>
+        <button type="button" class="btn btn-dark btn-lg download-button" data-aos="fade-right"><i
+                class="fab fa-apple"></i> Apple App
+            Store</button>
+        <button type="button" class="btn btn-light btn-lg download-button" data-aos="fade-right"><i
+                class="fab fa-google-play"></i>
+            Get it on Android</button>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="white-section" id="footer">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fas fa-envelope"></i>
+        <p data-aos="fade-down">© Copyright 2022 Be Unique. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
